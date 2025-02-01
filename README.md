@@ -1,15 +1,62 @@
 # PDF Encryption Tool
 
-Narzędzie do szyfrowania plików PDF z wykorzystaniem AES-256.
+A secure PDF encryption tool utilizing the AES-256 encryption algorithm.
 
-## Funkcjonalności
-- Konwersja PDF na tekst
-- Maskowanie danych wrażliwych (imiona, numery telefonów, adresy email)
-- Szyfrowanie danych przy użyciu AES-256
-- Automatyczne usuwanie plików źródłowych
+## Features
+- Convert PDF to text
+- Mask sensitive data (names, phone numbers, email addresses)
+- Encrypt files using AES-256
+- Automatically delete source files after processing
+- Ensure compliance with data protection regulations
 
-## Wymagania
+## Requirements
 - Python 3.x
-- Zainstalowane zależności z pliku requirements.txt
+- Dependencies from `requirements.txt`
 
-## Instalacja
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PatrykIA/encryption_tool.git
+   cd encryption_tool
+Install the required dependencies:
+pip install -r requirements.txt
+Usage
+
+Place your PDF file in the input/ directory.
+Run the encryption script:
+python encrypt.py
+Encrypted files will be saved in the output/ directory.
+Security Features
+
+AES-256 encryption standard
+Secure key management
+Automatic deletion of source files
+Data masking for sensitive information
+Project Structure
+
+pdf-encryption-tool/
+├── README.md
+├── requirements.txt
+├── encrypt.py
+├── input/
+└── output/
+Contributing
+
+Contributions are welcome! Feel free to submit a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Security Notice
+
+This tool implements industry-standard encryption methods. However, ensure compliance with local data protection regulations when handling sensitive information.
+
+Author
+
+Patryk Rogowski / PatrykIA
+
+Disclaimer
+
+This tool is provided "as is" without any warranties. Use it at your own risk.
