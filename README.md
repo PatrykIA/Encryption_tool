@@ -25,17 +25,18 @@ Install the required dependencies:
 pip install -r requirements.txt
 
 Usage
-
+```
 Place your PDF file in the input/ directory.
 Run the encryption script:
 python encrypt.py
 Encrypted files will be saved in the output/ directory.
 Security Features
-
+```
 AES-256 encryption standard
 Secure key management
 Automatic deletion of source files
 Data masking for sensitive information
+
 Project Structure
 ```
 pdf-encryption-tool/
